@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diseño Web en Barranquilla | Bulducer Agencia Digital</title>
+
+<meta name="description" content="Bulducer crea páginas web profesionales en Barranquilla. Diseño moderno, SEO básico, hosting y soporte mensual.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#222;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#0a2540,#123a63);
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin:20px 0;
+    font-size:1.2rem;
+}
+
+.btn-main{
+    background:#25D366;
+    color:white;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-main:hover{
+    background:#1ebe5c;
+    transform:scale(1.05);
+}
+
+/* NAV */
+
+nav{
+    background:#061a30;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    margin:0 20px;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#25D366;
+}
+
+/* SECTIONS */
+
+section{
+    padding:80px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2.2rem;
+    color:#0a2540;
+}
+
+/* SERVICES */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.service-card:hover{
+    transform:translateY(-15px);
+}
+
+/* PLANS */
+
+.plans{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.plan{
+    background:white;
+    border-radius:20px;
+    padding:40px 25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.plan:hover{
+    transform:scale(1.05);
+}
+
+.price{
+    font-size:2rem;
+    color:#25D366;
+    margin:20px 0;
+}
+
+.plan ul{
+    list-style:none;
+    margin:25px 0;
+}
+
+.plan ul li{
+    margin:10px 0;
+}
+
+/* ABOUT */
+
+.about{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    line-height:1.7;
+}
+
+/* CONTACT */
+
+.contact-box{
+    background:linear-gradient(135deg,#0a2540,#123a63);
+    color:white;
+    border-radius:25px;
+    padding:50px 30px;
+    text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+    background:#061a30;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bulducer Digital</h1>
+    <p>Construimos tu presencia digital para que vendas más</p>
+    <a href="#planes" class="btn-main">Ver Planes</a>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#planes">Planes</a>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+
+<h2>Servicios Profesionales</h2>
+
+<div class="services">
+
+<div class="service-card">
+<h3>Diseño Web</h3>
+<p>Páginas modernas y adaptadas a todo dispositivo.</p>
+</div>
+
+<div class="service-card">
+<h3>Mantenimiento</h3>
+<p>Soporte técnico y actualizaciones mensuales.</p>
+</div>
+
+<div class="service-card">
+<h3>Hosting y Dominio</h3>
+<p>Publicamos tu web sin complicaciones.</p>
+</div>
+
+<div class="service-card">
+<h3>SEO Básico</h3>
+<p>Mejora tu posición en Google.</p>
+</div>
+
+<div class="service-card">
+<h3>Tienda Online</h3>
+<p>Vende con pagos digitales.</p>
+</div>
+
+<div class="service-card">
+<h3>Soporte Directo</h3>
+<p>Atención rápida por WhatsApp.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="planes">
+
+<h2>Planes Mensuales</h2>
+
+<div class="plans">
+
+<!-- PLAN BASICO -->
+<div class="plan">
+<h3>Básico</h3>
+<p class="price">$30.000 / mes</p>
+
+<ul>
+<li>✔ Página Web</li>
+<li>✔ Hosting</li>
+<li>✔ Soporte</li>
+</ul>
+
+<a href="https://wa.me/573022652758?text=Hola,%20estoy%20interesado%20en%20el%20PLAN%20BÁSICO%20de%20Bulducer"
+class="btn-main">Elegir Plan</a>
+</div>
+
+<!-- PLAN PRO -->
+<div class="plan">
+<h3>Pro</h3>
+<p class="price">$60.000 / mes</p>
+
+<ul>
+<li>✔ Dominio</li>
+<li>✔ Cambios</li>
+<li>✔ SEO</li>
+</ul>
+
+<a href="https://wa.me/573022652758?text=Hola,%20estoy%20interesado%20en%20el%20PLAN%20PRO%20de%20Bulducer"
+class="btn-main">Elegir Plan</a>
+</div>
+
+<!-- PLAN PREMIUM -->
+<div class="plan">
+<h3>Premium</h3>
+<p class="price">$108.000 / mes</p>
+
+<ul>
+<li>✔ Tienda</li>
+<li>✔ Pagos</li>
+<li>✔ Prioridad</li>
+</ul>
+
+<a href="https://wa.me/573022652758?text=Hola,%20estoy%20interesado%20en%20el%20PLAN%20PREMIUM%20de%20Bulducer"
+class="btn-main">Elegir Plan</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="nosotros">
+
+<h2>Sobre Nosotros</h2>
+
+<div class="about">
+
+<p>
+Bulducer es una agencia digital en Barranquilla, Colombia,
+especializada en soluciones web profesionales.
+</p>
+
+<p>
+Fundado por <strong>Empeji</strong>.
+</p>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<div class="contact-box">
+
+<h3>Impulsa tu negocio hoy</h3>
+
+<p>📍 Barranquilla, Colombia</p>
+<p>📱 +57 302 265 2758</p>
+<p>📧 bulducer1@gmail.com</p>
+
+<a href="https://wa.me/573022652758" class="btn-main" style="margin-top:25px; display:inline-block;">
+Escríbenos por WhatsApp
+</a>
+
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Bulducer | Fundado por Empeji</p>
+
+</footer>
+
+</body>
+</html>
